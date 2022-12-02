@@ -18,7 +18,40 @@ nav .nav-link{
   font-size: 22px;
  }
 
+.form-control{
+  background-color: rgb(216, 212, 212)!important;
+  width: 400px!important;
+  position: relative!important;
+}
 
+.icon{
+  position: absolute;
+  z-index: 999;
+  right: 25px;
+  top:5px;
+  color: rgb(155, 151, 151);
+}
+
+
+.rightwidth{
+  width: 82%!important;
+}
+
+
+tr{
+  height: 60px!important;
+}
+
+
+@media only screen and (max-width: 800px){
+  .rightwidth{
+    width: 70%!important;
+  }
+  .form-control{
+    background-color: rgb(216, 212, 212)!important;
+    width: 100%!important;
+  }
+}
 
 @media only screen and (max-width: 500px){
  nav .nav-link{
@@ -27,6 +60,14 @@ nav .nav-link{
  .dot {
   height: 25px;
   width: 25px;
+}
+.form-control{
+  background-color: rgb(216, 212, 212)!important;
+  width: 100%!important;
+}
+
+.rightwidth{
+  width: 100%!important;
 }
 }
 

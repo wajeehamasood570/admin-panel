@@ -1,8 +1,6 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Layout from './Layouts';
 
 const Navbars = () => {
     return (
@@ -21,7 +19,7 @@ const Navbars = () => {
                         fontSize: "35px",
                         letterSpacing: "15px",
                         marginLeft:"-15px",
-                        width:"330px",
+                        width:"340px",
                         textAlign:"center"
                     }}>FLAIR</Navbar.Brand>
                 <Nav className="ms-auto"
