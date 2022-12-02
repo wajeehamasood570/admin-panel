@@ -1,0 +1,32 @@
+
+html {
+  background-color: #eaecf0;
+}
+body{
+  background-color: transparent!important;
+}
+
+.dot {
+  height: 35px;
+  width: 35px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav .nav-link{
+  font-size: 22px;
+ }
+
+
+
+@media only screen and (max-width: 500px){
+ nav .nav-link{
+  font-size: 16px;
+ }
+ .dot {
+  height: 25px;
+  width: 25px;
+}
+}
+
